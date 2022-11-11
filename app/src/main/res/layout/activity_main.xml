@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d4d4aa"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="75dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411"></ImageView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:shadowColor="@color/black"
+                android:text="English"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.523" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></View>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:shadowColor="@color/black"
+                android:text="PPS"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.392" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></View>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:shadowColor="@color/black"
+                android:text="Maths"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.269" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></View>
+
+                <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:shadowColor="@color/black"
+                android:text="German"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.652" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></View>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:shadowColor="@color/black"
+                android:text="BEEE"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.775" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></View>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:shadowColor="@color/black"
+                android:text="Physics"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.775" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></View>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:shadowColor="@color/black"
+                android:text="Basic Civil and mechanical Workshop"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.775" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></View>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:shadowColor="@color/black"
+                android:text="Computational Biology"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.775" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></View>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="1dp"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/buttonbackground"
+                android:text="Philosophy of Engineering"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.775" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"></View>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="SRM First Year Notes"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"></TextView>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:text="About the Developer"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.562" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
